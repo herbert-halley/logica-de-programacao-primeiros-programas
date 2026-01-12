@@ -32,7 +32,7 @@ for i in range(tentativas):
 
     if line == line_treasure and column == column_treasure:
         map[line][column] = '💎' 
-        print("\n Parabens!! Voce encontrou o tesouro!")
+        print("\n Parabens!! Voce encontrou o tesouro!!")
         showmap()
         break
     else:
